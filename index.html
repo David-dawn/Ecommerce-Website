@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="ESop.png" type="image/icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="d-flex flex-wrap justify-content-between align-items-center p-3 bg-light">
+        <div class="logo">
+            <img src="ESop.png" alt="E-shop logo">
+        </div>
+        <nav class="flex-grow-1">
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Shop</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="search-cart d-flex align-items-center">
+            <input type="text" placeholder="Search for products..." class="form-control me-2">
+            <a href="cart.html" class="cart-icon">
+                <img src="shopping-cart.png" alt="Cart">
+            </a>
+        </div>
+    </header>
+
+    <main id="content">
+        <!-- Hero Section -->
+        <section class="hero bg-light py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Text Content -->
+                    <div class="col-md-6 text-center text-md-start">
+                        <h1 class="display-4 fw-bold text-1" id="">Shop Globally, <br>Receive Locally</h1>
+                        <p class="lead text-2">Discover products from top brands <br>around the world and <strong><br>have them delivered to your doorstep</strong>.</p>
+                        <div class="mt-4">
+                            <a href="#" class="btn btn-lg me-2" id="first-btn">Start Shopping</a>
+                            <a href="#" class="btn btn-lg me-2" id="second-btn">Learn More</a>
+                        </div>
+                    </div>
+                    <!-- Image -->
+                    <div class="col-md-6 text-center">
+                        <img src="hero.png" alt="Shopping Woman" class="img-fluid" id="hero-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-products py-5">
+            <div class="container">
+                <h2 class="text-center">Featured Products</h2>
+                <div class="product-list row" id="featured-products">
+                    <!-- Product items will go here -->
+                </div>
+            </div>
+        </section>
+
+        <section class="categories py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center">Shop by Category</h2>
+                <div class="category-list row justify-content-center">
+                    <div class="col-6 col-md-3 mb-4 text-center">
+                        <a href="#" class="category-item btn btn-outline-primary d-flex flex-column align-items-center w-100 h-100">
+                            <i class="fas fa-tv fa-2x mb-2"></i>
+                            <span>Electronics</span>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-3 mb-4 text-center">
+                        <a href="#" class="category-item btn btn-outline-primary d-flex flex-column align-items-center w-100 h-100">
+                            <i class="fas fa-gem fa-2x mb-2"></i>
+                            <span>Jewelry</span>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-3 mb-4 text-center">
+                        <a href="#" class="category-item btn btn-outline-primary d-flex flex-column align-items-center w-100 h-100">
+                            <i class="fas fa-male fa-2x mb-2"></i>
+                            <span>Men's Clothing</span>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-3 mb-4 text-center">
+                        <a href="#" class="category-item btn btn-outline-primary d-flex flex-column align-items-center w-100 h-100">
+                            <i class="fas fa-female fa-2x mb-2"></i>
+                            <span>Women's Clothing</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-light py-5">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <!-- Logo and Contact Info -->
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <div class="logo mb-3">
+                        <img src="ESop.png" alt="Eshop logo">
+                    </div>
+                    <p>Shop Globally, Receive Locally</p>
+                    <address>
+                        Emmanuel Plaza, 23b, Fatai Atere Way, Matori <br>
+                        102215, Lagos, Nigeria. <br>
+                        <a href="mailto:info@beta-eshopping.com" class="text-light">info@beta-eshopping.com</a> <br>
+                        <a href="tel:+2342017140067" class="text-light">+234-201-714-0067</a>
+                    </address>
+                </div>
+
+                <!-- Useful Links -->
+                <div class="col-md-2 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Useful Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light">About Us</a></li>
+                        <li><a href="#" class="text-light">Contact Us</a></li>
+                        <li><a href="#" class="text-light">Support</a></li>
+                        <li><a href="#" class="text-light">Blog</a></li>
+                    </ul>
+                </div>
+
+                <!-- Customer Service -->
+                <div class="col-md-2 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Customer Service</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light">FAQs</a></li>
+                        <li><a href="#" class="text-light">Shipping & Returns</a></li>
+                        <li><a href="#" class="text-light">Order Tracking</a></li>
+                        <li><a href="#" class="text-light">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Account Links -->
+                <div class="col-md-2 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">My Account</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light">Sign In</a></li>
+                        <li><a href="#" class="text-light">View Cart</a></li>
+                        <li><a href="#" class="text-light">Wishlist</a></li>
+                        <li><a href="#" class="text-light">Track My Order</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter Signup and Social Media Links -->
+                <div class="col-md-3">
+                    <h5 class="text-uppercase mb-4">Subscribe to our Newsletter</h5>
+                    <p>Get the latest updates on new products and upcoming sales</p>
+                    <form class="mb-3">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Your email address" aria-label="Your email address">
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                    <h5 class="text-uppercase mb-3">Follow Us</h5>
+                    <div class="social-links d-flex justify-content-center justify-content-md-start">
+                        <a href="#" class="text-light me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#" class="text-light me-3"><i class="fab fa-facebook-f fa-lg"></i></a>
+                        <a href="#" class="text-light me-3"><i class="fab fa-linkedin fa-lg"></i></a>
+                        <a href="#" class="text-light"><i class="fab fa-twitter fa-lg"></i></a>
+                    </div>
+                </div>
+              </div>
+
+                <!-- Bottom section -->
+              <div class="row mt-4 pt-4 border-top border-secondary">
+                    <div class="col-md-12 text-center">
+                      <p class="mb-0">&copy; 2024 Eshop - All Rights Reserved.</p>
+                    </div>
+               </div>
+          </div>
+        </footer>
+
+       <!-- Bootstrap JS -->
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+       <script src="main.js"></script>
+  </body>
+</html>
